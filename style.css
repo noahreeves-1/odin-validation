@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.user-info-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+}
+
+.user-info-form > input {
+  width: 30vw;
+}
+
+.user-info-form > label {
+  margin-top: 20px;
+}
+
+#submit-user-info {
+  margin: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.correct {
+  color: green;
+}
